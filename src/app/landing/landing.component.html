@@ -1,0 +1,13 @@
+<div class="card" style="width: 22rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" placeholder="name@example.com" [(ngModel)]="uid">
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" placeholder="Password" [(ngModel)]="pwd" >
+    </div>
+    <br>
+      <button type="button" (click)="getLoggedIn()" class="btn btn-primary">Login</button>
+  </div>
+</div>
